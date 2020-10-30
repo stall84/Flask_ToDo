@@ -1,13 +1,57 @@
 body {
   margin: 1em;
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
-  letter-spacing: 0.28em;
+  letter-spacing: 0.17em;
+}
+
+.content {
+  margin: 5em 3em 5em 3em;
 }
 
 header {
-  margin-left: 50%;
+  text-align: center;
 }
 
-#main-body-1 {
-  margin-left: 50%;
+#null-display {
+  margin-top: 5rem;
+  text-align: center;
+}
+
+table,
+td,
+th {
+  border: 1.1px solid #880e4f;
+}
+
+table {
+  border-collapse: collapse;
+  box-shadow: 1px 2px 2px rgba(0, 0, 0, 0.4);
+  width: 100%;
+}
+
+th {
+  box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+  height: 30px;
+  padding: 3px;
+}
+
+td {
+  text-align: center;
+  padding: 5px;
+}
+
+.form {
+  text-align: center;
+  margin: 5em 5em 5em 5em;
+  padding-left: 5em;
+}
+
+input {
+  font-size: large;
+  border: 1.5px solid #880e4f;
+}
+
+#content {
+  height: 5rem;
+  width: 30rem;
 }
