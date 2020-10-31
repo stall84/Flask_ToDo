@@ -1,0 +1,6 @@
+FROM python:slim
+WORKDIR /flask_todo
+COPY . .
+RUN pip install -r requirements.txt
+EXPOSE 5000
+CMD ["python", "app.py"]

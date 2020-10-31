@@ -1,0 +1,15 @@
+########  FILES TO EXCLUDE FROM BUILD  ########
+
+
+# Byte-Compiled / Optimized / DLL Files
+__pycache__/
+
+# Virtual Environment Structure on Development Machine
+env/
+venv/
+ENV/
+.env
+.venv
+
+# Local Git Repo
+.git/
